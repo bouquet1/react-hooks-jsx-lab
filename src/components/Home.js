@@ -3,8 +3,8 @@ import { name, city } from "../data/data.js";
 
 function Home() {
   return (
-    <div id="home" style={{ color: "firebrick" }}>
-      <h1>
+    <div id="home">
+      <h1 style={{ color: "firebrick" }}>
         {name} is a Web Developer {city}
       </h1>
     </div>
