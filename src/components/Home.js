@@ -1,10 +1,12 @@
 import React from "react";
 import { name, city } from "../data/data.js";
 
+const firebrick = { color: "firebrick" };
+
 function Home() {
   return (
     <div id="home">
-      <h1 style={{ color: "firebrick" }}>
+      <h1 style={firebrick}>
         {name} is a Web Developer {city}
       </h1>
     </div>
